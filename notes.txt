@@ -1,0 +1,27 @@
+Situations:
+1) If unknown bull loc, single out location
+2) If no bull/1 cow, single out cow
+
+Deductions:
+1) If total c/b goes down: removed is good, added is bad
+2) If total c/b goes up: removed is bad, added is good
+3) If total c/b same, BUT composition changes:
+	b went down, c went up: removed is good loc, added is good
+	b went up, c went down: removed is good, added is good loc
+4) If total c/b same, AND composition same:
+	removed and added are both bad OR both good
+	test by removing diff and adding same
+	if total c/b same: all 3 are bad
+
+Notes:
+ALWAYS add a new number to a confirmed bull loc
+
+yes:
+4
+no:
+1235
+conf:
+68-4
+anti:
+----
+----
